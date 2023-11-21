@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body{
+  height: 100%;
+  background-attachment: fixed;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-list-nav ul,
+#head1{
+  display: flex;
+}
+.header-list #head1 {
+  /* margin-left: -300px; */
+  position: relative;
+  right: 200px;
+  font-size: 25px;
+  color: rgb(230, 230, 239);
+  font-family: "Phudu", sans-serif;
+}
+
+.header-list-nav ul li {
+  list-style-type: none;
+  padding: 30px 10px;
+  position: relative;
+  text-decoration: none;
+}
+.header-list-nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  /* background-color: green; */
+}
+.header-list-nav ul li a:hover {
+  background: linear-gradient(violet, blue);
+  border-radius: 5px;
+  transition: 0.2s;
+  color: aliceblue;
+}
+
+.header-list-side {
+  margin-left: 40px;
+  padding: 0px 20px;
+  float: right;
+  position: relative;
+  bottom: 55px;
+  /* left: 180px; */
+}
+.header-list-side #us,
+#sign-in,
+#signup {
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+  color: aliceblue;
+}
+.header-list-side #signup:hover {
+  background: linear-gradient(violet, blue);
+  border-radius: 5px;
+  transition: 0.2s;
+  color: aliceblue;
+}
+.header-list-side #us {
+  border: 0;
+  background-color: transparent;
+}
+.header-list-side #sign-in {
+  border: 0;
+  background-color: rgb(19, 19, 179);
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.header-list-side #signup {
+  text-decoration: none;
+}
+
+#contant {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+#contant #stxt-1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(135, 132, 132);
+}
+#contant #btxt {
+  font-family: "Tilt Prism", sans-serif;
+  font-size: 45px;
+  color: aliceblue;
+}
+#contant #bbtxt {
+  font-family: "Lato", sans-serif;
+  color: rgb(126, 188, 188);
+  font-size: 35px;
+}
+#contant #para {
+  color: rgb(219, 219, 219);
+  line-height: 30px;
+}
+
+#inpart #in {
+  width: 340px;
+  height: 45px;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+#in::placeholder {
+  /* padding:20px; */
+  color: black;
+}
+
+#btn {
+  width: 110px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(19, 19, 179);
+}
+#btn:hover {
+  box-shadow: 2px 2px 50px rgb(148, 148, 148);
+}
+
+#image #im1 {
+  margin-left: 860px;
+  margin-top: 100px;
+  height: 400px;
+}
+
+#head1 #im2 {
+  margin-bottom: 10px;
+  height: 30px;
+
+}
+#but1{
+  position: relative;
+  right: 40px;
+}
